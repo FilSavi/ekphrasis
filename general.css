@@ -1,0 +1,135 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	font-size: 100%;
+	font-family: GentiumPlus, sans-serif;
+}
+/*HEADER E FOOTER*/
+h1 {
+	font-size: 3rem;
+	font-family: "New Athena Unicode", serif;
+}
+h1, #title{
+	color: #ff6600;
+}
+.title-italic {
+	font-style: italic;
+	color: #ff6600;
+}
+.gc {
+	font-family: "New Athena Unicode", serif;
+    font-size: 1.2rem;
+}
+header, .foot {
+	background-color: #d9ffb3;
+	height: 10rem;
+	color: #ff6600;
+}
+.foot{
+	height: 100% !important;
+	font-size: 0.8rem;
+}
+ul, .no-lista {
+	list-style-type: none;
+}
+a.dipartimento {
+	color: #ff6600;
+}
+a.dipartimento:hover {
+	text-decoration: none;
+	color: #006622 !important;
+}
+.foglia, .contenitore {
+	border-radius: 5px 25px !important ;
+}
+.foglia {
+	background-color : #d9ffb3 !important;
+	box-shadow: 0 3px darkgreen !important;
+	color:#ff3300 !important;
+	fill: #ff3300 !important;
+	margin-left: 0.3rem !important;
+	margin-right: 0.2rem !important;
+	border: 1px solid darkgreen !important;
+	font-size: auto;
+}
+.foglia:hover, .btn-primary, .card-header, .studi {
+	background-color: darkorange !important;
+	color: #d9ffb3 !important;
+	fill: #d9ffb3 !important;
+	text-decoration: none;
+}
+li.foglia > a {
+	color:#ff3300;
+	fill: #ff3300;
+}
+li.foglia > a:hover, .toggolo {
+	color: #d9ffb3;
+	fill: #d9ffb3;
+}
+.foglia:active {
+  background-color: darkgreen !important;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+header div.first-leaf, header div.second-leaf {
+	background-color: darkorange;
+	border-radius: 5px 80px ;
+	height: 6rem;
+     margin: 2rem 0rem;
+     justify-content: space-evenly;
+     position: relative;
+}
+header div.second-leaf {
+	border-radius: 80px 5px !important;
+}
+.foglioline {
+	border-radius: 10px 70px;
+	border :solid 0.1rem #ff3300;
+	box-shadow: 0 2px #ff3300;
+	text-decoration: none;
+	color:#ff3300;
+}
+/*NAVBAR*/
+.navigazione {
+	background-color: darkorange !important;
+}
+li.attivazione {
+	background-color: #99ff33 !important;
+}
+div.searchbar {
+	display: inline;
+}	
+/*PROPRIETA' COMUNI ALLE ALTRE SEZIONI*/
+p.descrizione {
+	text-align: justify;
+	font-size: 1.2rem;
+	padding-top: 1.5rem;
+}
+.btn-primary {
+	border-radius: 5px 25px;
+	box-shadow: 0 3px darkgreen !important;
+	border: 1px solid darkgreen !important;
+	width: 8rem !important;
+}
+.btn-primary:hover {
+	background-color : #d9ffb3 !important;
+	color:#ff3300 !important;
+}
+span.margine-icona {
+	margin-left: 1rem;
+}
+.cdwa {
+	border-radius: 5px 25px !important ;
+	background-color : #d9ffb3 !important;
+	box-shadow: 0 3px darkgreen !important;
+	color:#ff3300 !important;
+	fill: #ff3300 !important;
+	border: 1px solid darkgreen !important;
+}
+.cdwa:hover {
+  text-decoration: none;
+  color: #d9ffb3 !important;
+  background-color : #ff3300 !important;
+}
+
