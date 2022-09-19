@@ -1,0 +1,92 @@
+/*FILTRI E BREADCRUMBS*/
+div.contenuto-checkmenu {
+	padding-left: 2rem;
+}
+.breadcrumb {
+	background-color: darkorange !important;
+}
+.breadcrumb > li {
+	display: inline;
+	color: #d9ffb3 !important;
+	font-size: 0.7rem;
+}
+.breadcrumb > li > a {
+	color: #d9ffb3 !important;
+}
+.breadcrumb>li>a:hover {
+	text-decoration: none !important;
+	color: #006622 !important
+}
+.briciole {
+	margin-top: 1rem;
+	margin-left: 1rem;
+	border:3px solid #d9ffb3;
+	border-radius:20px 5px;
+}
+.flex-column h5 {
+	color: #d9ffb3;
+	font-weight: bold;
+}
+/*SECTIONS E CARDS*/
+h5, h3.main-title {
+	font-weight: bold;
+}
+.card {
+	border: 2px solid #ff3300 !important;
+	border-radius: 10px;
+}
+.btn-primary {
+	border-radius: 5px 25px;
+	box-shadow: 0 3px darkgreen !important;
+	border: 1px solid darkgreen !important;
+	width: 8rem !important;
+}
+.btn-primary:hover {
+	background-color : #d9ffb3 !important;
+	color:#ff3300 !important;
+}
+.card-img-top {
+	height: 100%;
+	border-radius: 0px 0px 10px 10px !important;
+}
+.icn {
+	width: 3rem;
+	height: 3rem;
+}
+.relazioni {
+	font-size: 1rem;
+}
+.arrw {
+	font-size: 10rem;
+}
+.bino {
+	fill: darkorange;
+	font-size: 2rem;
+}
+.txt-esplorazione {
+  text-align: justify;
+	font-size: 1rem;
+	padding-top: 1.5rem;
+}
+.luogo {
+	text-decoration: none;
+	color: darkorange;
+}
+.luogo:hover {
+	text-decoration: none;
+	color: #d9ffb3 ;
+}
+.teo {
+	margin-top: 3rem !important;
+}
+.mar-fra {
+	margin-bottom: 1rem;
+}
+.marg-top {
+	margin-top: 6rem;
+}
+.padd-y {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
